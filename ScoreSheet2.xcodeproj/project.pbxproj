@@ -13,6 +13,17 @@
 		C308211B1B46074300839901 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C308211A1B46074300839901 /* Images.xcassets */; };
 		C308211E1B46074300839901 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C308211C1B46074300839901 /* LaunchScreen.xib */; };
 		C308212A1B46074300839901 /* ScoreSheet2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30821291B46074300839901 /* ScoreSheet2Tests.swift */; };
+		C30821351B4627D800839901 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30821341B4627D800839901 /* Game.swift */; };
+		C385C7591B4B5037003509A2 /* SplitItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385C7581B4B5037003509A2 /* SplitItemTests.swift */; };
+		C385C75B1B4B8639003509A2 /* SplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385C75A1B4B8639003509A2 /* SplitTests.swift */; };
+		C3D2FB251B4999ED00395280 /* AgricolaItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D2FB241B4999ED00395280 /* AgricolaItemTests.swift */; };
+		C3D2FB271B49AA3E00395280 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D2FB261B49AA3E00395280 /* GameTests.swift */; };
+		C3D2FB291B49D44500395280 /* AgricolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D2FB281B49D44500395280 /* AgricolaTests.swift */; };
+		D22BF0F1498D62A5219CE243 /* SplitItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22BF0BF236A6C4BBF305D47 /* SplitItem.swift */; };
+		D22BF25F2A45599DDC47B5ED /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22BF50ED700F81278FB6ECF /* ArrayExtension.swift */; };
+		D22BF3B6F69E88496CDCB150 /* AgricolaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22BF025475A0122649765F1 /* AgricolaItem.swift */; };
+		D22BF9E4A3CD4AA5F7E03FD8 /* Agricola.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22BF921F8D048AEEBAC6F3C /* Agricola.swift */; };
+		D22BFBB65459FA3EAEBC2ECC /* Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22BFBD1177B732BD93288AA /* Split.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,17 @@
 		C30821231B46074300839901 /* ScoreSheet2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreSheet2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30821281B46074300839901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C30821291B46074300839901 /* ScoreSheet2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreSheet2Tests.swift; sourceTree = "<group>"; };
+		C30821341B4627D800839901 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C385C7581B4B5037003509A2 /* SplitItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitItemTests.swift; sourceTree = "<group>"; };
+		C385C75A1B4B8639003509A2 /* SplitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitTests.swift; sourceTree = "<group>"; };
+		C3D2FB241B4999ED00395280 /* AgricolaItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgricolaItemTests.swift; sourceTree = "<group>"; };
+		C3D2FB261B49AA3E00395280 /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		C3D2FB281B49D44500395280 /* AgricolaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgricolaTests.swift; sourceTree = "<group>"; };
+		D22BF025475A0122649765F1 /* AgricolaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgricolaItem.swift; sourceTree = "<group>"; };
+		D22BF0BF236A6C4BBF305D47 /* SplitItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitItem.swift; sourceTree = "<group>"; };
+		D22BF50ED700F81278FB6ECF /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		D22BF921F8D048AEEBAC6F3C /* Agricola.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agricola.swift; sourceTree = "<group>"; };
+		D22BFBD1177B732BD93288AA /* Split.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,7 @@
 		C30821101B46074300839901 /* ScoreSheet2 */ = {
 			isa = PBXGroup;
 			children = (
+				C30821331B46089200839901 /* Model */,
 				C30821131B46074300839901 /* AppDelegate.swift */,
 				C30821151B46074300839901 /* ViewController.swift */,
 				C30821171B46074300839901 /* Main.storyboard */,
@@ -98,6 +121,7 @@
 		C30821261B46074300839901 /* ScoreSheet2Tests */ = {
 			isa = PBXGroup;
 			children = (
+				C3D2FB231B4999A100395280 /* Model */,
 				C30821291B46074300839901 /* ScoreSheet2Tests.swift */,
 				C30821271B46074300839901 /* Supporting Files */,
 			);
@@ -110,6 +134,31 @@
 				C30821281B46074300839901 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C30821331B46089200839901 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C30821341B4627D800839901 /* Game.swift */,
+				D22BF921F8D048AEEBAC6F3C /* Agricola.swift */,
+				D22BFBD1177B732BD93288AA /* Split.swift */,
+				D22BF025475A0122649765F1 /* AgricolaItem.swift */,
+				D22BF50ED700F81278FB6ECF /* ArrayExtension.swift */,
+				D22BF0BF236A6C4BBF305D47 /* SplitItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C3D2FB231B4999A100395280 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3D2FB241B4999ED00395280 /* AgricolaItemTests.swift */,
+				C385C7581B4B5037003509A2 /* SplitItemTests.swift */,
+				C3D2FB281B49D44500395280 /* AgricolaTests.swift */,
+				C385C75A1B4B8639003509A2 /* SplitTests.swift */,
+				C3D2FB261B49AA3E00395280 /* GameTests.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +262,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C30821161B46074300839901 /* ViewController.swift in Sources */,
+				C30821351B4627D800839901 /* Game.swift in Sources */,
 				C30821141B46074300839901 /* AppDelegate.swift in Sources */,
+				D22BF9E4A3CD4AA5F7E03FD8 /* Agricola.swift in Sources */,
+				D22BFBB65459FA3EAEBC2ECC /* Split.swift in Sources */,
+				D22BF3B6F69E88496CDCB150 /* AgricolaItem.swift in Sources */,
+				D22BF25F2A45599DDC47B5ED /* ArrayExtension.swift in Sources */,
+				D22BF0F1498D62A5219CE243 /* SplitItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D2FB251B4999ED00395280 /* AgricolaItemTests.swift in Sources */,
+				C385C7591B4B5037003509A2 /* SplitItemTests.swift in Sources */,
+				C385C75B1B4B8639003509A2 /* SplitTests.swift in Sources */,
+				C3D2FB271B49AA3E00395280 /* GameTests.swift in Sources */,
 				C308212A1B46074300839901 /* ScoreSheet2Tests.swift in Sources */,
+				C3D2FB291B49D44500395280 /* AgricolaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEFINES_MODULE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -381,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEFINES_MODULE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -411,6 +473,7 @@
 				C308212F1B46074300839901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C30821301B46074300839901 /* Build configuration list for PBXNativeTarget "ScoreSheet2Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +482,7 @@
 				C30821321B46074300839901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
