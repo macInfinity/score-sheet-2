@@ -14,8 +14,14 @@
 		C308211E1B46074300839901 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C308211C1B46074300839901 /* LaunchScreen.xib */; };
 		C308212A1B46074300839901 /* ScoreSheet2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30821291B46074300839901 /* ScoreSheet2Tests.swift */; };
 		C30821351B4627D800839901 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30821341B4627D800839901 /* Game.swift */; };
+		C354803E1B6ED0190040717C /* AgricolaHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C354803D1B6ED0190040717C /* AgricolaHeaderTableViewCell.swift */; };
+		C35480421B6EDDB10040717C /* AgricolaTotalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35480411B6EDDB10040717C /* AgricolaTotalView.xib */; };
 		C385C7591B4B5037003509A2 /* SplitItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385C7581B4B5037003509A2 /* SplitItemTests.swift */; };
 		C385C75B1B4B8639003509A2 /* SplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385C75A1B4B8639003509A2 /* SplitTests.swift */; };
+		C388D5CF1B51F679002B56BA /* AllGamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388D5CE1B51F679002B56BA /* AllGamesTableViewController.swift */; };
+		C388D5D11B53125A002B56BA /* AgricolaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388D5D01B53125A002B56BA /* AgricolaTableViewController.swift */; };
+		C388D5D31B531262002B56BA /* SplitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388D5D21B531262002B56BA /* SplitTableViewController.swift */; };
+		C3AF0AC71B5C916700E911FD /* AgricolaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF0AC61B5C916700E911FD /* AgricolaTableViewCell.swift */; };
 		C3D2FB251B4999ED00395280 /* AgricolaItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D2FB241B4999ED00395280 /* AgricolaItemTests.swift */; };
 		C3D2FB271B49AA3E00395280 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D2FB261B49AA3E00395280 /* GameTests.swift */; };
 		C3D2FB291B49D44500395280 /* AgricolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D2FB281B49D44500395280 /* AgricolaTests.swift */; };
@@ -24,6 +30,7 @@
 		D22BF3B6F69E88496CDCB150 /* AgricolaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22BF025475A0122649765F1 /* AgricolaItem.swift */; };
 		D22BF9E4A3CD4AA5F7E03FD8 /* Agricola.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22BF921F8D048AEEBAC6F3C /* Agricola.swift */; };
 		D22BFBB65459FA3EAEBC2ECC /* Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22BFBD1177B732BD93288AA /* Split.swift */; };
+		D22BFD283EB8D275DE866FF4 /* UITableViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22BF5E73D92EBE107EC2AFC /* UITableViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +55,21 @@
 		C30821281B46074300839901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C30821291B46074300839901 /* ScoreSheet2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreSheet2Tests.swift; sourceTree = "<group>"; };
 		C30821341B4627D800839901 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C354803D1B6ED0190040717C /* AgricolaHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgricolaHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		C35480411B6EDDB10040717C /* AgricolaTotalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgricolaTotalView.xib; sourceTree = "<group>"; };
 		C385C7581B4B5037003509A2 /* SplitItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitItemTests.swift; sourceTree = "<group>"; };
 		C385C75A1B4B8639003509A2 /* SplitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitTests.swift; sourceTree = "<group>"; };
+		C388D5CE1B51F679002B56BA /* AllGamesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllGamesTableViewController.swift; sourceTree = "<group>"; };
+		C388D5D01B53125A002B56BA /* AgricolaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgricolaTableViewController.swift; sourceTree = "<group>"; };
+		C388D5D21B531262002B56BA /* SplitTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitTableViewController.swift; sourceTree = "<group>"; };
+		C3AF0AC61B5C916700E911FD /* AgricolaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgricolaTableViewCell.swift; sourceTree = "<group>"; };
 		C3D2FB241B4999ED00395280 /* AgricolaItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgricolaItemTests.swift; sourceTree = "<group>"; };
 		C3D2FB261B49AA3E00395280 /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		C3D2FB281B49D44500395280 /* AgricolaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgricolaTests.swift; sourceTree = "<group>"; };
 		D22BF025475A0122649765F1 /* AgricolaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgricolaItem.swift; sourceTree = "<group>"; };
 		D22BF0BF236A6C4BBF305D47 /* SplitItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitItem.swift; sourceTree = "<group>"; };
 		D22BF50ED700F81278FB6ECF /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		D22BF5E73D92EBE107EC2AFC /* UITableViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewControllerExtension.swift; sourceTree = "<group>"; };
 		D22BF921F8D048AEEBAC6F3C /* Agricola.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agricola.swift; sourceTree = "<group>"; };
 		D22BFBD1177B732BD93288AA /* Split.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +113,7 @@
 		C30821101B46074300839901 /* ScoreSheet2 */ = {
 			isa = PBXGroup;
 			children = (
+				C388D5C91B51D0F8002B56BA /* UI */,
 				C30821331B46089200839901 /* Model */,
 				C30821131B46074300839901 /* AppDelegate.swift */,
 				C30821151B46074300839901 /* ViewController.swift */,
@@ -147,6 +162,36 @@
 				D22BF0BF236A6C4BBF305D47 /* SplitItem.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		C354803F1B6ED2170040717C /* Agricola */ = {
+			isa = PBXGroup;
+			children = (
+				C354803D1B6ED0190040717C /* AgricolaHeaderTableViewCell.swift */,
+				C3AF0AC61B5C916700E911FD /* AgricolaTableViewCell.swift */,
+				C388D5D01B53125A002B56BA /* AgricolaTableViewController.swift */,
+			);
+			name = Agricola;
+			sourceTree = "<group>";
+		};
+		C35480401B6ED22E0040717C /* Split */ = {
+			isa = PBXGroup;
+			children = (
+				C388D5D21B531262002B56BA /* SplitTableViewController.swift */,
+			);
+			name = Split;
+			sourceTree = "<group>";
+		};
+		C388D5C91B51D0F8002B56BA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C35480401B6ED22E0040717C /* Split */,
+				C354803F1B6ED2170040717C /* Agricola */,
+				C388D5CE1B51F679002B56BA /* AllGamesTableViewController.swift */,
+				D22BF5E73D92EBE107EC2AFC /* UITableViewControllerExtension.swift */,
+				C35480411B6EDDB10040717C /* AgricolaTotalView.xib */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 		C3D2FB231B4999A100395280 /* Model */ = {
@@ -205,11 +250,13 @@
 		C30821061B46074300839901 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Chris Maki";
 				TargetAttributes = {
 					C308210D1B46074300839901 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 5QX67YD5EN;
 					};
 					C30821221B46074300839901 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -244,6 +291,7 @@
 				C30821191B46074300839901 /* Main.storyboard in Resources */,
 				C308211E1B46074300839901 /* LaunchScreen.xib in Resources */,
 				C308211B1B46074300839901 /* Images.xcassets in Resources */,
+				C35480421B6EDDB10040717C /* AgricolaTotalView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +309,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C354803E1B6ED0190040717C /* AgricolaHeaderTableViewCell.swift in Sources */,
 				C30821161B46074300839901 /* ViewController.swift in Sources */,
 				C30821351B4627D800839901 /* Game.swift in Sources */,
 				C30821141B46074300839901 /* AppDelegate.swift in Sources */,
+				C388D5D11B53125A002B56BA /* AgricolaTableViewController.swift in Sources */,
 				D22BF9E4A3CD4AA5F7E03FD8 /* Agricola.swift in Sources */,
 				D22BFBB65459FA3EAEBC2ECC /* Split.swift in Sources */,
 				D22BF3B6F69E88496CDCB150 /* AgricolaItem.swift in Sources */,
+				C388D5CF1B51F679002B56BA /* AllGamesTableViewController.swift in Sources */,
+				C3AF0AC71B5C916700E911FD /* AgricolaTableViewCell.swift in Sources */,
 				D22BF25F2A45599DDC47B5ED /* ArrayExtension.swift in Sources */,
 				D22BF0F1498D62A5219CE243 /* SplitItem.swift in Sources */,
+				C388D5D31B531262002B56BA /* SplitTableViewController.swift in Sources */,
+				D22BFD283EB8D275DE866FF4 /* UITableViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ScoreSheet2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ScoreSheet2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

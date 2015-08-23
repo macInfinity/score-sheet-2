@@ -12,7 +12,9 @@ public class Game {
     public var gameTitle: String
     public var gameDescription: String
     public var dateCreated = NSDate() // this is now
-    
+    // this is set by the player of the game, up to the UI for how to present this to the player
+    public var message: String?
+
     // public for testing
     public var winner = false
     

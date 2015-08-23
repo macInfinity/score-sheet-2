@@ -48,22 +48,39 @@ public class Agricola : Game {
         return score
     }
 
-    public func title(#forLine: Int) -> String? {
-        if let item = gameItems.ref(forLine) {
+    /**
+    This is a zero based index
+    */
+    public func titleForLine(line: Int) -> String? {
+        if let item = gameItems.ref(line) {
             return item.title
         }
         return nil
     }
 
-    public func score(#forLine: Int) -> Int? {
-        if let item = gameItems.ref(forLine) {
+    public func itemsForLine(line: Int) -> Int? {
+        if let item = gameItems.ref(line) {
+            return item.userInput
+        }
+        return nil
+    }
+    /**
+    This is a zero based index
+    */
+    public func scoreForLine(line: Int) -> Int? {
+        if let item = gameItems.ref(line) {
             return item.score
         }
         return nil
     }
-    
-    public func update(#score: Int, forLine: Int) {
-        var agricolaItem = gameItems.ref(forLine)
+
+    /**
+    This is a zero based index
+    */
+    public func updateScore(score: Int, line: Int) -> Int? {
+        var agricolaItem = gameItems.ref(line)
         agricolaItem?.userInput = score
+        
+        return agricolaItem?.score
     }
 }

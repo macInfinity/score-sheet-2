@@ -24,7 +24,13 @@ class AgricolaItemTests : XCTestCase {
         
         super.tearDown()
     }
-    
+
+    func testFields() {
+       agricolaItem?.userInput = 3
+       XCTAssertTrue(1 == agricolaItem?.score)
+
+    }
+
     func testMultiplier() {
         agricolaItemMultiplier?.userInput = 3
         XCTAssertTrue(9 == agricolaItemMultiplier?.score)
