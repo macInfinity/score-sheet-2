@@ -1,6 +1,7 @@
 //
 // Created by Chris Maki on 7/3/15.
 // Copyright (c) 2015 Chris Maki. All rights reserved.
+// Implementation of the Agricola Board Game score sheet
 //
 
 import Foundation
